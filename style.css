@@ -8,13 +8,19 @@ body {
 
 #card-box {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     gap: 20px;
-
+    border-color: crimson;
+    border-style: double;
+    padding: 30px;
 }
 
 .name-alignment {
     align-items: end;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .name-alignment h1 {
@@ -23,10 +29,19 @@ body {
     text-align: end;
 }
 
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .profile-links {
     display: flex;
-    gap: 20px;
+    justify-content: flex-end;
+    gap: 15px;
     padding: 0;
+    margin-top: auto;
+    margin-bottom: 0;
 
 }
 
