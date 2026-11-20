@@ -4,14 +4,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(241, 239, 239);
 }
 
 #card-box {
     display: flex;
     align-items: stretch;
     gap: 20px;
-    border-color: crimson;
-    border-style: double;
+    background-color: whitesmoke;
+    box-shadow: 
+    0 10px 15px -3px rgba(0, 0, 0, 0.3),
+    0 25px 50px -12px rgba(0, 0, 0, 0.5);
     padding: 30px;
 }
 
@@ -21,6 +24,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
+    color: midnightblue;
 }
 
 .name-alignment h1 {
@@ -51,6 +55,6 @@ body {
 }
 
 .profile-links li a {
-    color: black;
+    color: midnightblue;
     text-decoration: none;
 }
