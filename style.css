@@ -58,3 +58,26 @@ body {
     color: midnightblue;
     text-decoration: none;
 }
+
+
+/* When screen width < card width (=500) */
+@media (max-width: 500px) {
+    #card-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-info {
+        gap: 20px;
+        align-items: center;
+    }
+
+    .name-alignment h1 {
+        text-align: left;
+    }
+
+    .profile-links {
+        justify-content: center;
+        gap: 12px;
+    }
+}
